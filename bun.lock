@@ -5,6 +5,7 @@
       "name": "portfolio-astro",
       "dependencies": {
         "@astrojs/cloudflare": "^12.2.1",
+        "wrangler": "^3.109.1",
       },
       "devDependencies": {
         "@astrojs/check": "^0.6.0",
