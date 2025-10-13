@@ -9,7 +9,7 @@
 		"preview": "astro preview",
 		"astro": "astro",
 		"check": "biome check --apply-unsafe .",
-		"deploy": "bun run build && wrangler pages deploy dist"
+		"deploy": "npm run build && wrangler pages deploy dist"
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.9.4",
