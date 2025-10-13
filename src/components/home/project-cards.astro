@@ -1,8 +1,7 @@
 ---
-// import projects from "../../collections/projects.json";
 import { getCollection } from "astro:content";
 import Button from "../button.astro";
-import Project from "../project.astro";
+import ProjectPreview from "../project-preview.astro";
 
 const { count } = Astro.props;
 
@@ -35,7 +34,7 @@ const sortedProjects = allProjects
     {
       sortedProjects.map((project) => {
         return (
-          <Project
+          <ProjectPreview
             name={project.name}
             description={project.description}
             image={project.cover}
