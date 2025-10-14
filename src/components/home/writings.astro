@@ -1,6 +1,6 @@
 ---
 import Button from "../button.astro";
-import PostsLoop from "../posts-loop.astro";
+import BlogPosts from "../blog-posts.astro";
 ---
 
 <section class="max-w-4xl mx-auto px-7 lg:px-0">
@@ -18,7 +18,7 @@ import PostsLoop from "../posts-loop.astro";
       class="flex flex-col items-start justify-start md:flex-row md:space-x-7"
     >
       <div class="w-full space-y-7">
-        <PostsLoop count="3" />
+        <BlogPosts count="3" />
 
         <div class="flex items-center justify-center w-full py-5">
           <Button text="View All Posts" link="/posts" />

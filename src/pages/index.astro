@@ -1,10 +1,9 @@
 ---
 import Button from "../components/button.astro";
-import Projects from "../components/home/projects.astro";
+import Projects from "../components/home/project-cards.astro";
 import Separator from "../components/home/separator.astro";
 import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
-
 ---
 
 <Layout title="Dev Jaggernauth">
@@ -14,15 +13,17 @@ import Layout from "../layouts/main.astro";
     <div class="flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
         <h1
-          class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white "
+          class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
         >
-          Hi, <span class="bg-gradient-to-r from-gray-700 via-rose-500 to-orange-400 bg-clip-text text-transparent">I'm Devin.</span>
+          Hi, <span
+            class="bg-gradient-to-r from-gray-700 via-rose-500 to-orange-400 bg-clip-text text-transparent"
+            >I'm Devin.</span
+          >
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
           I'm a Software Engineer based in Trinidad. <br
             class="hidden lg:block"
-          />I'm passionate about the entire stack 🥞.<br/>
-          I am not an AI agent.
+          />I'm passionate about the entire stack 🥞.<br />
         </p>
         <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
           I can help you out with:
@@ -34,20 +35,32 @@ import Layout from "../layouts/main.astro";
           <li>Next.js Development</li>
           <li>Go and Node.js Backends</li>
         </ul>
-        <Button text="Let's connect" link="https://linkedin.com/in/devin-jaggernauth"><svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#fff" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg></Button>
+        <Button
+          text="Let's connect"
+          link="https://linkedin.com/in/devin-jaggernauth"
+          ><svg
+            class=""
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            ><path
+              fill="#fff"
+              d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"
+            ></path></svg
+          ></Button
+        >
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
       >
-          <div class="relative z-30 px-10">
-            <img
-              src="/assets/images/profile-photo.png"
-              loading="eager"
-              decoding="auto"
-              class="relative z-30 w-full  md:max-w-md mx-auto dark:-translate-y-0.5 rounded-xl"
-            />
-          </div>
-
+        <div class="relative z-30 px-10">
+          <img
+            src="/assets/images/profile-photo.png"
+            loading="eager"
+            decoding="auto"
+            class="relative z-30 w-full md:max-w-md mx-auto dark:-translate-y-0.5 rounded-xl"
+          />
         </div>
       </div>
     </div>
@@ -55,7 +68,28 @@ import Layout from "../layouts/main.astro";
 
   <Separator text="Recent Projects" />
   <Projects />
+  <div class="flex items-center justify-center w-full py-5">
+    <Button text="View All My Projects" link="/projects"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        ><path
+          fill="#fff"
+          d="M8.75 13A2.25 2.25 0 0 1 11 15.25v3.5A2.25 2.25 0 0 1 8.75 21h-3.5A2.25 2.25 0 0 1 3 18.75v-3.5A2.25 2.25 0 0 1 5.25 13zm10-10A2.25 2.25 0 0 1 21 5.25v3.5A2.25 2.25 0 0 1 18.75 11h-3.5A2.25 2.25 0 0 1 13 8.75v-3.5A2.25 2.25 0 0 1 15.25 3z"
+          class="duoicon-secondary-layer"
+          opacity="0.3"></path><path
+          fill="#fff"
+          d="M8.75 3A2.25 2.25 0 0 1 11 5.25v3.5A2.25 2.25 0 0 1 8.75 11h-3.5A2.25 2.25 0 0 1 3 8.75v-3.5A2.25 2.25 0 0 1 5.25 3z"
+          class="duoicon-primary-layer"></path><path
+          fill="#fff"
+          d="M18.75 13A2.25 2.25 0 0 1 21 15.25v3.5A2.25 2.25 0 0 1 18.75 21h-3.5A2.25 2.25 0 0 1 13 18.75v-3.5A2.25 2.25 0 0 1 15.25 13z"
+          class="duoicon-secondary-layer"
+          opacity="0.3"></path></svg
+      ></Button
+    >
+  </div>
   <Separator text="Blog Posts" />
-
-  <Writings /> 
+  <Writings />
 </Layout>
