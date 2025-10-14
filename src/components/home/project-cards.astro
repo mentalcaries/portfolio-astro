@@ -16,6 +16,8 @@ const sortedProjects = allProjects
     };
   })
   .sort((a, b) => a.order - b.order);
+
+  const topProjects = sortedProjects.slice(0, count)
 ---
 
 <section class="max-w-4xl mx-auto px-7 lg:px-0">
@@ -32,7 +34,7 @@ const sortedProjects = allProjects
     class="grid items-stretch w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 mt-7"
   >
     {
-      sortedProjects.map((project) => {
+      topProjects.map((project) => {
         return (
           <ProjectPreview
             name={project.name}

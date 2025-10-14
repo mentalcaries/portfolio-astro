@@ -2,18 +2,44 @@
 import PageHeading from "../components/page-heading.astro";
 import ProjectCards from "../components/home/project-cards.astro";
 import Layout from "../layouts/main.astro";
+import { getCollection } from "astro:content";
+import ProjectPreview from "../components/project-preview.astro";
+
+const allProjects = await getCollection("project");
+
+const sortedProjects = allProjects
+  .map((project) => {
+    return {
+      id: project.id,
+      ...project.data,
+      order: project.data.order || 9999,
+    };
+  })
+  .sort((a, b) => a.order - b.order);
 ---
 
-<Layout title="My Projects">
-  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+<Layout title="Projects">
+  <section class="relative z-20 max-w-4xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
-      title="My Projects"
+      title="Projects"
       description="Here's a showcase of my work and solutions I had a blast building!"
     />
-    <ProjectCards />
     <div
       class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
     >
+      {
+        sortedProjects.map((project) => {
+          return (
+            <ProjectPreview
+              name={project.name}
+              description={project.description}
+              image={project.cover}
+              url={project.deployment}
+              link={`/project/${project.id}`}
+            />
+          );
+        })
+      }
     </div>
   </section>
 </Layout>
