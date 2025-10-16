@@ -2,7 +2,9 @@
 import Footer from "../components/footer.astro";
 import Header from "../components/header.astro";
 import SquareLines from "../components/square-lines.astro";
-const { title } = Astro.props;
+const { title, description } = Astro.props;
+
+const ogImage = new URL("/assets/og-image.jpg", Astro.site).href;
 ---
 
 <!doctype html>
@@ -12,14 +14,26 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
 
-    <!-- Used to add dark mode right away, adding here prevents any flicker -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={title} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <meta property="og:site_name" content="Dev Jaggernauth" />
+
     <script is:inline>
-      if (typeof Storage !== 'undefined') {
+      if (typeof Storage !== "undefined") {
         if (
-          localStorage.getItem('dark_mode') &&
-          localStorage.getItem('dark_mode') == 'true'
+          localStorage.getItem("dark_mode") &&
+          localStorage.getItem("dark_mode") == "true"
         ) {
-          document.documentElement.classList.add('dark')
+          document.documentElement.classList.add("dark");
         }
       }
     </script>
