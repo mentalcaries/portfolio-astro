@@ -4,7 +4,7 @@ import Header from "../components/header.astro";
 import SquareLines from "../components/square-lines.astro";
 const { title, description } = Astro.props;
 
-const ogImage = new URL("/assets/og-image.jpg", Astro.site).href;
+const ogImage = new URL("/assets/images/og-image.jpg", Astro.site).href;
 ---
 
 <!doctype html>
@@ -15,7 +15,7 @@ const ogImage = new URL("/assets/og-image.jpg", Astro.site).href;
     <title>{title}</title>
 
     <meta property="og:title" content={title} />
-    <meta property="og:description" content={title} />
+    <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
     <meta property="og:url" content={Astro.url.href} />
     <meta property="og:type" content="website" />

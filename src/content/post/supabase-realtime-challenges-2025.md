@@ -19,7 +19,7 @@ Fast forward to 2025, where we had not done much development on app, save for so
 
 Supabase had made updates to their JavaScript libraries, specifically for better handling of server and client components within Next. Updating from Next.js 13 to 15 was fairly smooth with the help of Claude and GPT, and allowed for much cleaner implementation of the Supabase integration. Database requests and authentication worked without a hitch, and Realtime subscriptions? Well let's say there were many hitches involved.
 
-Realtime no longer worked. Checking the Network connection and multiple `console.log`s later, I could see that the websocket connection was open and subscribed too, but I could not get my dev code to work. I Googled, asked Claude and other models, re-checked the docs and even let Claude Code use the Supabase MCP server to check everything from RLS to proper permissions, but to no avail. Now mind you, the _old_ 2023 code in production worked fine, so it couldn't have been the databases; it had to be with the new libraries.
+Realtime no longer worked. Checking the Network connection and multiple `console.log`s later, I could see that the websocket connection was open and subscribed to, but I could not get my dev code to work. I Googled, asked Claude and other models, re-checked the docs and even let Claude Code use the Supabase MCP server to check everything from RLS to proper permissions, but to no avail. Now mind you, the _old_ 2023 code in production worked fine, so it couldn't have been the databases; it had to be with the new libraries.
 
 ![alt text](supabase-realtime-challenges-2025/image-1.png)
 
