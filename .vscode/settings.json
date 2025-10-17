@@ -2,6 +2,7 @@
   "markdown.copyFiles.destination": {
     "**/src/content/**": "${documentDirName}/${documentBaseName}/"
   },
+  "cSpell.enabled": true,
   "cSpell.language": "en-GB",
   "cSpell.words": ["Connectient", "Formatted", "Supabase"]
 }
