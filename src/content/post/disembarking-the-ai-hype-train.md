@@ -1,6 +1,7 @@
 ---
 title: Disembarking the AI Hype Train
 description: Becoming a 0.1x Engineer and the rediscovery of thinking.
+author: Devin Jaggernauth
 dateFormatted: November 1, 2025
 tags:
   - ai
@@ -38,7 +39,8 @@ With the slew of code generation tooling being pushed out every week: I get the 
 
 - developers who don't actually like to code but need to
 - people who don't know how to code but would like to build some early prototype or MVP.
-  They are pretty terrible for those who are just learning how to code, because they can do all the work for you. This means you never get to experience the struggle, and consequently the growth that comes with trying to learn a new concept or skill.
+
+They are pretty terrible for those who are just learning how to code, because they can do all the work for you. This means you never get to experience the struggle, and consequently the growth that comes with trying to learn a new concept or skill.
 
 As for my coding, I'm going to be a bit more selective about how much I let it do. I've been thinking that it comes down to finding the right balance between tasks I want to do myself, and others that I don't mind outsourcing or having help with. This is something I'm still testing, but I feel some of the productivity is really going to come down to knowing _when_ to use AI.
 
