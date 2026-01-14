@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-10-28.md",
+                "file": "supabase-realtime-challenges-2025.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-10-28"
+              "title": "supabase-realtime-challenges-2025"
             }
           }
         ]
