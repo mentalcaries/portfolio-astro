@@ -1,5 +1,5 @@
 ---
-title: Solving The Challenge of Supabase Realtime in Next.js 15
+title: Solving The Problem of Supabase Realtime in Next.js 15
 description: Supabase Realtime somehow managed to break itself over the last two years
 author: Devin Jaggernauth
 dateFormatted: Oct 15, 2025
