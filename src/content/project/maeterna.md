@@ -1,6 +1,6 @@
 ---
 name: Maeterna
-description: Patient-first Health Logging
+description: Patient-first Maternal Health Logging
 cover: /assets/images/projects/maeterna.png
 deployment: https://momhealth.app
 order: 1
@@ -11,6 +11,8 @@ technologies:
 Maeterna solves a very specific problem: in Trinidad & Tobago, high risk pregnant patients usually need to log their blood glucose and blood pressure as this affects their case management. In the public health system, the way this is done is physically writing it down on paper, then booking a clinic appointment to review the values. As if a high-risk pregnancy isn't stressful enough, patients sometimes have to wait up to 3 hours to be seen.
 
 The solution: a maternal health monitoring platform built for patients and Obstetrician/Gynaecologists in Trinidad & Tobago and the wider Caribbean. It replaces paper-based, disorganised tracking of blood glucose and blood pressure readings with a structured system where patients own their health data and explicitly control who can see it.
+
+Co-developed with [Tiffany Hall](https://tiffanycodes.com) and [Dr. Shane Khan](https://fetalhealthsolutions.com)
 
 ![Comparison of paper-based workflow and mobile UI](maeterna/compare.png)
 
