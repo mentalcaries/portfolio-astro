@@ -7,7 +7,7 @@ order: 2
 technologies: [Next.js, TypeScript, Tailwind CSS, PostgreSQL, Stripe Payments, Better-Auth, Go, Cloudflare R2, Twilio, Google Calendar API, E2E Testing (Playwright)]
 ---
 
-Connectient gives patients a simple, frictionless way to connect with their desired provider while providing support staff with a powerful scheduling and management tool. With a focus on user-friendly interface, robust features, and a commitment to enhancing the patient experience, Connectient bridges the gap between patients and practices.
+Connectient started out as a solution I saw in my former dental practice: there's no way for patients to book appointments after hours (because we'd see many missed calls the next morning), and all the apps that existed were clunky. What it evolved to now gives patients a simple, frictionless way to connect with their desired provider while providing support staff with a powerful scheduling and management tool. With a focus on user-friendly interface, robust features, and a commitment to enhancing the patient experience, Connectient bridges the gap between patients and practices.
 
 ![Connectient Dashboard](connectient/dash.png)
 
