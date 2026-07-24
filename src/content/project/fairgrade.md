@@ -3,7 +3,7 @@ name: FairGrade
 description: Clinical Rotation Assessment System for Medical Students
 cover: /assets/images/projects/fairgrade.png
 deployment: https://fairgrade.app
-order: 1
+order: 2
 technologies:
   [Nuxt, TypeScript, Tailwind CSS, PostgreSQL, Better Auth, Drizzle ORM]
 ---
