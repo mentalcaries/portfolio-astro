@@ -1,0 +1,183 @@
+{
+  "name": "Devin Jaggernauth",
+  "contact": {
+    "email": "hello@jaggernauth.dev",
+    "phone": "(868) 678-5644",
+    "location": "Trinidad & Tobago",
+    "links": [
+      { "label": "Website", "url": "https://jaggernauth.dev/" },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/devin-jaggernauth/"
+      }
+    ]
+  },
+  "summary": "Full Stack Generalist and Lead Instructor with 4+ years leading technical teams and shipping production applications using React, Next.js, Node.js, TypeScript, Go, and PostgreSQL. Equally comfortable on a team of engineering talent or delivering features solo. Former Dental Surgeon and Practice Owner with 14 years of clinical experience, bringing firsthand knowledge of small business management, practice management systems and clinical acuity, and to software development. Still a fan of handwritten code, but able to leverage agentic workflows to boost productivity.",
+  "technicalSkills": {
+    "languages": ["JavaScript", "TypeScript", "Go", "Python", "SQL"],
+    "frontend": [
+      "React",
+      "Next.js",
+      "Vue.js",
+      "Nuxt",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS"
+    ],
+    "backend": ["Node.js", "Express.js", "Gin", "RESTful API Development"],
+    "databases": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Supabase",
+      "Firebase",
+      "Database Design"
+    ],
+    "cloudAndDevOps": [
+      "AWS Cloud Practitioner",
+      "GCP",
+      "Docker",
+      "Git",
+      "Linux",
+      "CI/CD Pipelines"
+    ],
+    "testingAndQuality": [
+      "Playwright",
+      "E2E Testing",
+      "Test-Driven Development"
+    ],
+    "methodologies": [
+      "Spec Driven Development",
+      "Agentic Coding",
+      "Agile/Scrum",
+      "Code Review"
+    ]
+  },
+  "professionalExperience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "WellSolveAble",
+      "dates": "January 2024 - Present",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Go",
+        "VPS",
+        "Docker",
+        "Resend",
+        "Hygraph CMS",
+        "Tailwind CSS",
+        "Playwright"
+      ],
+      "bullets": [
+        "Initially led 2-engineer team, building industry-first guided wizard application that standardizes well viability assessments for drilling engineers",
+        "Developed intelligent diagnostic workflow that identifies problem components, suggests viable solutions, and calculates repair costs based on component prices, labor, and job duration",
+        "Built risk assessment and profitability analysis system enabling engineers to make data-driven decisions on well repair vs. abandonment",
+        "Created field-level analytics comparing reports across wells to identify component failure patterns and manufacturer reliability trends",
+        "Integrated payments system with Polar/Stripe and Subscription based access to the platform",
+        "Architected multi-step forms with draft-saving functionality, reducing assessment completion time by 40% while maintaining data integrity"
+      ],
+      "deploymentUrl": "https://wellsolveable.com"
+    },
+    {
+      "title": "Founder & Full Stack Engineer",
+      "company": "Connectient",
+      "dates": "June 2023 - Present",
+      "technologies": ["TypeScript", "Next.js", "Supabase", "Tailwind CSS"],
+      "bullets": [
+        "Led 4-person cross-functional development team using Agile methodologies to build healthcare appointment management system",
+        "Built 24/7 automated booking platform achieving 100% lead conversion by capturing after-hours appointments, eliminating revenue loss from missed calls and unavailable staff",
+        "Led product discovery with healthcare providers, translating clinical workflows into user-centered design and prioritized feature roadmap through Agile sprint planning",
+        "Built complete platform including patient booking portal, provider scheduling interface, automated reminders, and analytics dashboard",
+        "Architected HIPAA-conscious data handling and security practices for patient information"
+      ],
+      "deploymentUrl": "https://connectient.co/"
+    },
+    {
+      "title": "Lead Software Engineering Instructor",
+      "company": "TripleTen",
+      "dates": "Sept 2021 - Present",
+      "note": "Promoted from Tutor (Sept 2021 - Feb 2023) to Senior Instructor (Sept 2023) to Lead Instructor (Aug 2025)",
+      "bullets": [
+        "Lead recruitment and technical assessment process for new Instructors, conducting technical interviews and managing onboarding workflows that maintain program quality standards",
+        "Manage team of 5 instructors overseeing performance management, conducting weekly team syncs, and serving as primary point of contact for operational and professional development matters",
+        "Mentor 150+ students across multiple cohorts in JavaScript, HTML, CSS, Git Version Control, React, Node.js, Express, MongoDB, and system administration (VMs, Nginx), maintaining 98% satisfaction rating across 400+ 1-on-1 sessions",
+        "Collaborate with curriculum team to incorporate student feedback into curriculum updates and ensure instructional materials reflect current industry practices",
+        "Deliver code reviews, architectural guidance, and debugging support for full-stack development projects from fundamentals to deployment"
+      ]
+    },
+    {
+      "title": "Founder & CEO, Dental Surgeon",
+      "company": "Essential Dental Solutions",
+      "companyUrl": "https://southtrinidaddentist.com",
+      "dates": "2013-2024",
+      "bullets": [
+        "Successfully founded and managed healthcare practice for 11 years, gaining deep expertise in:",
+        "Healthcare operations, patient experience, and clinical workflows",
+        "Practice management software, EHR systems, and healthcare technology",
+        "Business operations, financial management, and team leadership",
+        "Patient communication, appointment scheduling, and revenue cycle management"
+      ]
+    },
+    {
+      "title": "Dental Surgeon",
+      "company": "Dental & Implant Center",
+      "dates": "2010-2013",
+      "bullets": [
+        "General dental practice providing comprehensive patient care including restorative, surgical, and preventive dentistry."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "credential": "AWS Certified Cloud Practitioner",
+      "institution": "Amazon Web Services",
+      "date": "exp. 2028"
+    },
+    {
+      "credential": "Backend Developer Curriculum",
+      "institution": "Boot.dev",
+      "date": "2025"
+    },
+    {
+      "credential": "Software Engineering Bootcamp",
+      "institution": "TripleTen",
+      "date": "2021",
+      "detail": "10-month intensive full-stack development program covering JavaScript, React, Node.js, databases, and deployment"
+    },
+    {
+      "credential": "Business Certifications",
+      "institution": "Harvard Business School Online",
+      "date": "2020",
+      "detail": "Financial Accounting, Economics for Managers, Business Analytics"
+    },
+    {
+      "credential": "Implant Continuum",
+      "institution": "Implant Seminars",
+      "date": "2016-2017",
+      "detail": "Placement and restoration of dental implants. (88 CE hours)"
+    },
+    {
+      "credential": "Invisalign Provider Certification",
+      "institution": "Align Technologies Mexico",
+      "date": "2016"
+    },
+    {
+      "credential": "Dawson Core Curriculum",
+      "institution": "The Dawson Academy for Advanced Dental Study",
+      "date": "2013-2016",
+      "detail": "TMJ-based approach to Complex Restorative Cases and Treatment of Occlusion-related Conditions and Functional Aesthetics. (130 CE hours)"
+    },
+    {
+      "credential": "Advanced Education in General Dentistry",
+      "institution": "Lutheran Medical Center, Dept of Dental Medicine",
+      "date": "2009-2010"
+    },
+    {
+      "credential": "Doctor of Dental Surgery",
+      "institution": "University of the West Indies",
+      "date": "2009"
+    }
+  ]
+}
